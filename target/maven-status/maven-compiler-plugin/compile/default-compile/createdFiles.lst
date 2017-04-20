@@ -1,0 +1,11 @@
+com\springjpa\controller\ApplicationExceptionLogController.class
+com\springjpa\Application.class
+com\springjpa\service\ApplicationExceptionLogServices.class
+com\springjpa\dao\ApplicationExceptionLogRepository.class
+com\springjpa\dto\ApplicationExceptionLogDTO.class
+com\springjpa\dto\BotConversationLogDTO.class
+com\springjpa\model\BotConversationLog.class
+com\springjpa\dao\BotConversationLogRepository.class
+com\springjpa\model\ApplciationExceptionLog.class
+com\springjpa\controller\BotConversationLogController.class
+com\springjpa\service\BotConversationServices.class
