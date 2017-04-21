@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: CustomerService
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: pradeep.v.thombare
+Built-By: manjeet.singh.jamwal
 Implementation-Vendor-Id: com.springjpa
 Build-Jdk: 1.8.0_121
 Implementation-URL: http://projects.spring.io/spring-boot/springJPA-po

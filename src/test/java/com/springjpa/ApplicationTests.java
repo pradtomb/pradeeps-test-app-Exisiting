@@ -33,13 +33,13 @@ public class ApplicationTests {
 		int searchId= 12;
 				
 		
-	 BotConversationLogDTO botConvLogDTO = botConversationService.findById(searchId);
+	/* BotConversationLogDTO botConvLogDTO = botConversationService.findById(searchId);
 	 assertEquals(searchId, botConvLogDTO.getBotConversationMessageId());
-		
+		*/
 	
 	}
 	
-	@Test
+	/*@Test
 	public void testLogResponse()
 	{
 			int searchId= 12;
@@ -52,9 +52,9 @@ public class ApplicationTests {
 			
 			assertEquals(responseString,botConvLogDTO.getConversationRes());
 			assertFalse(responseTimestampBefore.equals(botConvLogDTO.getResponseTimestamp()));
-	}
+	}*/
 	
-	@Test
+	/*@Test
 	public void testLogRequest()
 	{
 		int previousSize = botConversationService.getAllLog().size();
@@ -78,7 +78,7 @@ public class ApplicationTests {
 		assertNotNull(botConvLogDTOTest.getRequestTimestamp());
 		assertNotNull(botConvLogDTOTest.getRequestTimestamp());
 		
-	}
+	}*/
 	
 
 }
