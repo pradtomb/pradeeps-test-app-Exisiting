@@ -39,7 +39,7 @@ public class AgentConversationLogTests {
 	}
 	
 	@Test
-	public void should_find_no_should_store_a_applicationlog_if_repository_is_empty() {
+	public void should_find_no_agentconversationlog_if_repository_is_empty() {
 		Iterable<AgentConversationLog> applciationLogObj = agentConversationLogRepository.findAll();
 		assertThat(applciationLogObj).isEmpty();
 	}

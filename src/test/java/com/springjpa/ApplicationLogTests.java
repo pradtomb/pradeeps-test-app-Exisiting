@@ -40,7 +40,7 @@ public class ApplicationLogTests {
 	}
 	
 	@Test
-	public void should_find_no_should_store_a_applicationlog_if_repository_is_empty() {
+	public void should_find_no_applicationlog_if_repository_is_empty() {
 		Iterable<ApplciationLog> applciationLogObj = applicationLogRepository.findAll();
 		assertThat(applciationLogObj).isEmpty();
 	}
