@@ -28,7 +28,7 @@ public class BotConversationLogTest {
 	@Autowired
 	BotConversationServices botConversationService;
 	
-	@Test
+	/*@Test
 	public void contextLoads() {
 		int searchId= 12;
 				
@@ -78,7 +78,7 @@ public class BotConversationLogTest {
 		assertNotNull(botConvLogDTOTest.getRequestTimestamp());
 		assertNotNull(botConvLogDTOTest.getRequestTimestamp());
 		
-	}
+	}*/
 	
 
 }

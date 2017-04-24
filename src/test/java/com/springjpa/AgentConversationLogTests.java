@@ -30,7 +30,7 @@ public class AgentConversationLogTests {
 	AgentConversationService agentConversationService;
 	
 			
-	@Test
+/*	@Test
 	public void contextLoads()  throws Exception{
 		//List<CustomerDTO> customerDTOList=customerService.getAllCustomers();		
 		//assertThat(customerDTOList.size()).isEqualTo(1);
@@ -56,5 +56,5 @@ public class AgentConversationLogTests {
 		assertThat(agentConversationLogObjs).hasFieldOrPropertyWithValue("timestamp", null);	
 		assertThat(agentConversationLogObjs).hasFieldOrPropertyWithValue("conversationSentiment", "conversationSentiment01");
 		assertThat(agentConversationLogObjs).hasFieldOrPropertyWithValue("requestTimeStamp", "requestTimeStamp");			
-	}
+	}*/
 }

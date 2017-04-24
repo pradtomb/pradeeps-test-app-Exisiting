@@ -35,7 +35,7 @@ public class ApplicationExceptionLogTests {
 	ApplicationExceptionLogServices applicationExceptionLogServices;
 	
 			
-	@Test
+	/*@Test
 	public void contextLoads()  throws Exception{
 		//List<CustomerDTO> customerDTOList=customerService.getAllCustomers();		
 		//assertThat(customerDTOList.size()).isEqualTo(1);		
@@ -59,7 +59,7 @@ public class ApplicationExceptionLogTests {
 		assertThat(applciationExceptionLogObjs).hasFieldOrPropertyWithValue("output", "output01");
 		assertThat(applciationExceptionLogObjs).hasFieldOrPropertyWithValue("logmessage", "logmessage");
 		assertThat(applciationExceptionLogObjs).hasFieldOrPropertyWithValue("timestamp", null);		
-	}
+	}*/
 	
 	
 

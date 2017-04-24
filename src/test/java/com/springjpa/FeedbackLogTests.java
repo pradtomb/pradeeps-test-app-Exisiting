@@ -29,7 +29,7 @@ public class FeedbackLogTests {
 	FeedbackLogService feedbackLogService;
 	
 			
-	@Test
+	/*@Test
 	public void contextLoads()  throws Exception{
 		//List<CustomerDTO> customerDTOList=customerService.getAllCustomers();		
 		//assertThat(customerDTOList.size()).isEqualTo(1);
@@ -57,7 +57,7 @@ public class FeedbackLogTests {
 		assertThat(feedbackLogObj).hasFieldOrPropertyWithValue("requestTimeStamp", "requestTimeStamp");
 		
 			
-	}
+	}*/
 	
 	
 
