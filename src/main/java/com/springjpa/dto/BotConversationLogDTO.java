@@ -11,7 +11,7 @@ private String conversationReq;
 private String conversationRes;
 private String channelId;
 private String intentName;
-private int	intentConfidence;
+private double	intentConfidence;
 private String userId;
 private Date requestTimestamp;
 private Date responseTimestamp;
@@ -52,10 +52,10 @@ public String getIntentName() {
 public void setIntentName(String intentName) {
 	this.intentName = intentName;
 }
-public int getIntentConfidence() {
+public double getIntentConfidence() {
 	return intentConfidence;
 }
-public void setIntentConfidence(int intentConfidence) {
+public void setIntentConfidence(double intentConfidence) {
 	this.intentConfidence = intentConfidence;
 }
 public String getUserId() {
