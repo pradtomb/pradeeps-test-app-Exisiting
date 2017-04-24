@@ -1,8 +1,8 @@
 applications:
-- path: target/springJPA-postgreSQL-0.0.1-SNAPSHOT.war
+- path: target/springjpa.war
   memory: 512M
   instances: 1
   domain: minsky.mybluemix.net
-  name: springJPA-postgreSQL
-  host: springJPA-postgreSQL
+  name: pradeeps-test-app
+  host: pradeeps-test-app
   disk_quota: 1024M
