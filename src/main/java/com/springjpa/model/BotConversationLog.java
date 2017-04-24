@@ -39,7 +39,7 @@ private String channelId;
 private String intentName;
 
 @Column(name = "intentconfidence")
-private int	intentConfidence;
+private double	intentConfidence;
 
 @Column(name = "userid")
 private String userId;
@@ -90,10 +90,10 @@ public String getIntentName() {
 public void setIntentName(String intentName) {
 	this.intentName = intentName;
 }
-public int getIntentConfidence() {
+public double getIntentConfidence() {
 	return intentConfidence;
 }
-public void setIntentConfidence(int intentConfidence) {
+public void setIntentConfidence(double intentConfidence) {
 	this.intentConfidence = intentConfidence;
 }
 public String getUserId() {
@@ -131,7 +131,7 @@ public String toString() {
 }
 
 public BotConversationLog(String conversationId, String conversationReq,
-		String conversationRes, String channelId, String intentName, int intentConfidence, String userId,
+		String conversationRes, String channelId, String intentName, double intentConfidence, String userId,
 		Date requestTimestamp, Date responseTimestamp, String requestSentiment) {
 	super();
 	
