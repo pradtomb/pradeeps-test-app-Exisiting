@@ -28,16 +28,16 @@ public class ApplicationTests {
 	@Autowired
 	BotConversationServices botConversationService;
 	
-	@Test
+	/*@Test
 	public void contextLoads() {
 		int searchId= 12;
 				
 		
-	/* BotConversationLogDTO botConvLogDTO = botConversationService.findById(searchId);
+	 BotConversationLogDTO botConvLogDTO = botConversationService.findById(searchId);
 	 assertEquals(searchId, botConvLogDTO.getBotConversationMessageId());
-		*/
+		
 	
-	}
+	}*/
 	
 	/*@Test
 	public void testLogResponse()
