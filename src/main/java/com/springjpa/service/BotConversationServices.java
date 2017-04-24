@@ -59,7 +59,7 @@ public class BotConversationServices {
 	
 	public List<BotConversationLogDTO>  getAllLog()
 	{
-		List<BotConversationLogDTO> botConversationDTOList=new ArrayList<>();
+		List<BotConversationLogDTO> botConversationDTOList=new ArrayList<BotConversationLogDTO>();
 		List<BotConversationLog> botConversationList=botConversationRepository.findAll();
 		if(botConversationList!=null){
 			for (BotConversationLog conversationLog : botConversationList) {
