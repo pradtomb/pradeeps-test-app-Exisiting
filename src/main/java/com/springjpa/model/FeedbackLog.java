@@ -18,7 +18,7 @@ public class FeedbackLog implements Serializable{
 	private static final long serialVersionUID = -6959280275742520424L;
 	
 @Id
-@GeneratedValue(strategy=GenerationType.IDENTITY)
+@GeneratedValue(strategy = GenerationType.AUTO)
 @Column(name="feedbacklogmessageid")
 private long feedbackLogMessageID;
 
