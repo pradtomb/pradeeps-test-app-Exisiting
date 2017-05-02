@@ -18,7 +18,7 @@ public class BotConversationLog implements Serializable{
 	private static final long serialVersionUID = -8590495000010815683L;
 
 @Id
-@GeneratedValue(strategy = GenerationType.AUTO)
+@GeneratedValue(strategy=GenerationType.IDENTITY)
 @Column(name="botconversationmessageid")
 private long botConversationMessageId;
 
