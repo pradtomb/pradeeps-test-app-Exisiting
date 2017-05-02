@@ -19,7 +19,7 @@ public class AgentConversationLog implements Serializable{
 	private static final long serialVersionUID = -6959280275742520424L;
 	
 @Id
-@GeneratedValue(strategy = GenerationType.AUTO)
+@GeneratedValue(strategy=GenerationType.IDENTITY)
 @Column(name="agentconversationmessageid")
 private long agentConversationMessageID;
 

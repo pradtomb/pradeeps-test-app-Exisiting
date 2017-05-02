@@ -20,7 +20,7 @@ public class ApplciationExceptionLog implements Serializable{
 	private static final long serialVersionUID = -1304479854132847154L;
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name = "applicationexceptionid")
 	private long applicationexceptionid;
 
